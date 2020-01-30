@@ -15,7 +15,8 @@ class SessionsController < ApplicationController
       params[:session][:remember_me] == '1' ? remember(user) : forget(user)
       #remember user
 
-      redirect_to user
+      redirect_back_or user
+#      redirect_to user
          
       # ユーザーログイン後にユーザー情報のページにリダイレクトする
   
