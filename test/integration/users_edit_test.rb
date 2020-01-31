@@ -1,17 +1,15 @@
 require 'test_helper'
 
 class UsersEditTest < ActionDispatch::IntegrationTest
-<<<<<<< HEAD
   # test "the truth" do
   #   assert true
   # end
-end
-=======
 
   def setup
     @user = users(:michael)
   end
 
+end
 
 =begin
   test "successful edit" do
@@ -30,6 +28,3 @@ end
     assert_equal email, @user.email
   end
 =end
-
-end
->>>>>>> updating-users
