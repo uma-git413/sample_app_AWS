@@ -7,11 +7,13 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
     @other_user = users(:archer)
   end
  
-  test "should get new" do
-    get signup_path
+#  test "should get new" do
+#    get signup_path
+    
     #get users_new_url
-    assert_response :success
-  end
+
+#    assert_response :success
+#  end
 
 =begin
   test "should redirect edit when logged in as wrong user" do
